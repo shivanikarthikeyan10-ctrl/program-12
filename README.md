@@ -12,17 +12,17 @@ Write a C Program to print the string "LINUX" n number of times.
 
 ALGORITHM:
 
-Start the program.
+1. Start the program.
 
-Declare an integer variable to store the input value.
+2. Declare an integer variable to store the input value.
 
-Read the integer value from the user using the scanf function.
+3. Read the integer value from the user using the scanf function.
 
-Use a for loop starting from 1 to the input value:
+4. Use a for loop starting from 1 to the input value:
 
-a. In each iteration, print "LINUX".
+    a. In each iteration, print "LINUX".
 
-End the program.
+5. End the program.
 
 PROGRAM:
 ```
@@ -70,22 +70,22 @@ write a c program to print hollow rectangular pattern
 
 ALGORITHM:
 
-Start the program.
+1. Start the program.
 
-Declare two integer variables to store the number of rows and columns.
+2. Declare two integer variables to store the number of rows and columns.
 
-Read the values of rows and columns from the user using the scanf function.
+3. Read the values of rows and columns from the user using the scanf function.
 
-Use a for loop from 1 to the number of rows:
+4. Use a for loop from 1 to the number of rows:
 
-a. Inside this loop, use another for loop from 1 to the number of columns:
+    a. Inside this loop, use another for loop from 1 to the number of columns:
 
- i. If the current row or column is the first or last, print "*".
+     i. If the current row or column is the first or last, print "*".
 
- ii. Otherwise, print a space " ".
-b. After the inner loop, move to the next line using printf("\n").
+         ii. Otherwise, print a space " ".
+     b. After the inner loop, move to the next line using printf("\n").
 
-End the program.
+5. End the program.
 
 PROGRAM:
 ```
@@ -142,19 +142,19 @@ Start the program.
 
 3. Define a function to perform multiplication:
 
-a. Take two float arguments.
+    a. Take two float arguments.
 
-b. Multiply the two numbers and store the result.
+   b. Multiply the two numbers and store the result.
 
-c. Print the multiplication result.
+    c. Print the multiplication result.
 
 4. Define a function to perform division:
 
-a. Take two float arguments.
+    a. Take two float arguments.
 
-b. Divide the first number by the second and store the result.
+    b. Divide the first number by the second and store the result.
 
-c. Print the division result with six decimal places.
+    c. Print the division result with six decimal places.
 
 5. In the main function, call the multiplication function with the input numbers.
 
@@ -219,9 +219,9 @@ ALGORITHM:
 
 5. Use a while loop that runs as long as n is less than or equal to num2:
 
-a. Check if n is an odd number (n % 2 != 0). i. If true, add n to sum.
+    a. Check if n is an odd number (n % 2 != 0). i. If true, add n to sum.
 
-b. Increment n by 1.
+    b. Increment n by 1.
 
 6. After the loop ends, print the value of sum.
 
@@ -277,21 +277,21 @@ Write a C program to print the multiplication table of a given number using do w
 
 ALGORITHM:
 
-Start the program.
+1. Start the program.
 
-Declare three integer variables: num1, num2, and i. Initialize i to 1.
+2. Declare three integer variables: num1, num2, and i. Initialize i to 1.
 
-Read two integer values (num1 and num2) from the user using scanf.
+3. Read two integer values (num1 and num2) from the user using scanf.
 
-Use a do-while loop that runs as long as i is less than or equal to num2:
+4. Use a do-while loop that runs as long as i is less than or equal to num2:
 
-a. Multiply num1 by i and store the result in a variable mul.
+    a. Multiply num1 by i and store the result in a variable mul.
 
-b. Print the value of mul followed by a space.
+    b. Print the value of mul followed by a space.
 
-c. Increment i by 1.
+    c. Increment i by 1.
 
-End the program.
+5. End the program.
 
 PROGRAM:
 ```
